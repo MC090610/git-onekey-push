@@ -3,7 +3,8 @@ One-Key Git Push — 一键完成 git add、commit 和 push
 
 
 由于我太懒，于是就写了个sh 
-其实是懒癌犯了~~（我不想每次更新blog还要输一堆git命令）~~
+其实是懒癌犯了
+~~（我不想每次更新blog还要输一堆git命令）~~
 本sh完全由ai编写，所以不可避免有屎山（比如各种满天飞的if）
 
 
@@ -52,7 +53,7 @@ bash git-push.sh -dir projectA "修复了xxx"
 git config --global credential.helper store
 #正常执行一下git push，正常输入邮箱和ghpkey
 #随后执行
-bash git-push.sh -dir projectA -修复了xxx -y #甚至可以省略掉commit内容
+bash git-push.sh -dir projectA -修复了xxx -y #甚你甚至可以省略掉commit内容
 ```
 
 ---
